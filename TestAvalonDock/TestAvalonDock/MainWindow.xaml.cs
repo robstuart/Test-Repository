@@ -23,5 +23,10 @@ namespace TestAvalonDock
         {
             InitializeComponent();
         }
+
+        private void OnExit(object sender, RoutedEventArgs e)
+        {
+            App.Current.MainWindow.Close();
+        }
     }
 }
