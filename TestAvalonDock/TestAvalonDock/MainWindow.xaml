@@ -13,6 +13,10 @@
             <MenuItem Header="File">
                 <MenuItem Header="Exit" Click="OnExit" />
             </MenuItem>
+            <MenuItem Header="Second Menu">
+                <MenuItem Header="Menu item 1" />
+                <MenuItem Header="Menu item 2" />
+            </MenuItem>
         </Menu>
 
         <ad:DockingManager x:Name="dockManager" Grid.Row="1" >
