@@ -27,7 +27,7 @@
         </ad:DockingManager>
 
         <StatusBar Grid.Row="2">
-            <StatusBarItem Content="AvalonDock 1.3 Sample Project"/>
+            <StatusBarItem Content="This is just a test..."/>
         </StatusBar>
     </Grid>
 </Window>
